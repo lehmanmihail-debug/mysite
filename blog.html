@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог - EcoTrack</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <h1>Eco<span>Track</span></h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="blog.html" class="active">Блог</a></li>
+                    <li><a href="about.html">О проекте</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Блог и новости</h1>
+            <p>Свежие статьи, обновления и экологические новости</p>
+        </div>
+    </section>
+
+    <!-- Blog Content -->
+    <section class="blog-content">
+        <div class="container">
+            <div class="blog-grid">
+                <main class="blog-posts">
+                    <article class="blog-post">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Весенняя посадка деревьев">
+                            <div class="post-date">
+                                <span class="day">15</span>
+                                <span class="month">Май</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <h2>Итоги весенней посадки деревьев 2023</h2>
+                            <div class="post-meta">
+                                <span><i class="fas fa-user"></i> Алексей Петров</span>
+                                <span><i class="fas fa-tag"></i> События</span>
+                                <span><i class="fas fa-comments"></i> 12 комментариев</span>
+                            </div>
+                            <p>Весенний сезон посадки деревьев завершился с рекордными результатами. Благодаря усилиям более 500 волонтеров в 10 городах России было высажено более 5000 саженцев различных пород деревьев...</p>
+                            <a href="#" class="read-more">Читать далее</a>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-post">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Экологическая конференция">
+                            <div class="post-date">
+                                <span class="day">28</span>
+                                <span class="month">Апр</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <h2>Экологическая конференция "Устойчивое будущее"</h2>
+                            <div class="post-meta">
+                                <span><i class="fas fa-user"></i> Мария Сидорова</span>
+                                <span><i class="fas fa-tag"></i> Мероприятия</span>
+                                <span><i class="fas fa-comments"></i> 8 комментариев</span>
+                            </div>
+                            <p>На прошлой неделе в Москве прошла ежегодная экологическая конференция "Устойчивое будущее", в которой приняли участие представители нашего проекта. Мы поделились опытом создания платформы для отслеживания экологических инициатив...</p>
+                            <a href="#" class="read-more">Читать далее</a>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-post">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Новая функция платформы">
+                            <div class="post-date">
+                                <span class="day">10</span>
+                                <span class="month">Апр</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <h2>Новая функция: карта экологических проектов</h2>
+                            <div class="post-meta">
+                                <span><i class="fas fa-user"></i> Иван Козлов</span>
+                                <span><i class="fas fa-tag"></i> Обновления</span>
+                                <span><i class="fas fa-comments"></i> 15 комментариев</span>
+                            </div>
+                            <p>Мы рады представить новую функцию на платформе EcoTrack - интерактивную карту экологических проектов. Теперь вы можете легко находить инициативы в вашем городе или регионе, просматривать их статус и присоединяться к ним...</p>
+                            <a href="#" class="read-more">Читать далее</a>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-post">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Переработка отходов">
+                            <div class="post-date">
+                                <span class="day">22</span>
+                                <span class="month">Мар</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <h2>Как организовать раздельный сбор отходов в своем дворе</h2>
+                            <div class="post-meta">
+                                <span><i class="fas fa-user"></i> Анна Волкова</span>
+                                <span><i class="fas fa-tag"></i> Советы</span>
+                                <span><i class="fas fa-comments"></i> 24 комментария</span>
+                            </div>
+                            <p>Раздельный сбор отходов - важный шаг на пути к устойчивому развитию. В этой статье мы расскажем, как организовать систему раздельного сбора в вашем дворе, договориться с управляющей компанией и вовлечь соседей...</p>
+                            <a href="#" class="read-more">Читать далее</a>
+                        </div>
+                    </article>
+                    
+                    <!-- Load More Button -->
+                    <div class="load-more-container">
+                        <button id="loadMore" class="btn btn-secondary">Загрузить больше статей</button>
+                    </div>
+                </main>
+                
+                <aside class="blog-sidebar">
+                    <div class="sidebar-widget">
+                        <h3>Поиск по блогу</h3>
+                        <div class="search-box">
+                            <input type="text" placeholder="Введите ключевые слова...">
+                            <button><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-widget">
+                        <h3>Категории</h3>
+                        <ul class="categories">
+                            <li><a href="#">События <span>12</span></a></li>
+                            <li><a href="#">Мероприятия <span>8</span></a></li>
+                            <li><a href="#">Обновления <span>5</span></a></li>
+                            <li><a href="#">Советы <span>15</span></a></li>
+                            <li><a href="#">Интервью <span>3</span></a></li>
+                            <li><a href="#">Исследования <span>7</span></a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="sidebar-widget">
+                        <h3>Популярные статьи</h3>
+                        <div class="popular-posts">
+                            <div class="popular-post">
+                                <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Посадка деревьев">
+                                <div>
+                                    <h4>Итоги весенней посадки деревьев 2023</h4>
+                                    <span>15 мая 2023</span>
+                                </div>
+                            </div>
+                            <div class="popular-post">
+                                <img src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Новая функция">
+                                <div>
+                                    <h4>Новая функция: карта проектов</h4>
+                                    <span>10 апреля 2023</span>
+                                </div>
+                            </div>
+                            <div class="popular-post">
+                                <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Раздельный сбор">
+                                <div>
+                                    <h4>Раздельный сбор отходов во дворе</h4>
+                                    <span>22 марта 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-widget">
+                        <h3>Подписка на новости</h3>
+                        <p>Будьте в курсе новых статей и экологических новостей</p>
+                        <div class="subscribe-form">
+                            <input type="email" placeholder="Ваш email">
+                            <button class="btn btn-primary">Подписаться</button>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-widget tags">
+                        <h3>Теги</h3>
+                        <div class="tag-cloud">
+                            <a href="#">экология</a>
+                            <a href="#">деревья</a>
+                            <a href="#">переработка</a>
+                            <a href="#">волонтерство</a>
+                            <a href="#">устойчивость</a>
+                            <a href="#">климат</a>
+                            <a href="#">образование</a>
+                            <a href="#">сообщество</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-leaf"></i>
+                    <h2>Eco<span>Track</span></h2>
+                    <p>Платформа для экологических инициатив</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Навигация</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="about.html">О проекте</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-envelope"></i> info@ecotrack.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 123-45-67</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 EcoTrack. Все права защищены.</p>
+                        <p>Сделано с <i class="fas fa-heart"></i> для планеты</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

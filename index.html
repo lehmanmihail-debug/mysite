@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTrack - Отслеживание экологических инициатив</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <h1>Eco<span>Track</span></h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                    <li><a href="about.html">О проекте</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Отслеживайте. Участвуйте. Изменяйте.</h2>
+                <p>Присоединяйтесь к платформе для мониторинга экологических инициатив и участия в реальных проектах по защите окружающей среды.</p>
+                <div class="hero-buttons">
+                    <a href="blog.html" class="btn btn-primary">Узнать больше</a>
+                    <a href="contact.html" class="btn btn-secondary">Присоединиться</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Экологические инициативы">
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="statistics">
+        <div class="container">
+            <h2>Наша статистика</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-tree"></i>
+                    <h3>12,540+</h3>
+                    <p>Посаженных деревьев</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-users"></i>
+                    <h3>3,200+</h3>
+                    <p>Активных участников</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-recycle"></i>
+                    <h3>45+</h3>
+                    <p>Экологических проектов</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-globe-americas"></i>
+                    <h3>15</h3>
+                    <p>Городов по всей стране</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News -->
+    <section class="latest-news">
+        <div class="container">
+            <h2>Последние новости</h2>
+            <div class="news-grid" id="newsGrid">
+                <!-- News will be loaded by JavaScript -->
+            </div>
+            <div class="text-center">
+                <a href="blog.html" class="btn btn-secondary">Все новости</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="quick-links">
+        <div class="container">
+            <h2>Быстрые ссылки</h2>
+            <div class="links-grid">
+                <a href="blog.html" class="link-card">
+                    <i class="fas fa-newspaper"></i>
+                    <h3>Блог и новости</h3>
+                    <p>Свежие статьи и обновления</p>
+                </a>
+                <a href="about.html" class="link-card">
+                    <i class="fas fa-info-circle"></i>
+                    <h3>О проекте</h3>
+                    <p>Узнайте о нашей миссии</p>
+                </a>
+                <a href="contact.html" class="link-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Присоединиться</h3>
+                    <p>Стать частью команды</p>
+                </a>
+                <a href="#" class="link-card" id="donateLink">
+                    <i class="fas fa-donate"></i>
+                    <h3>Поддержать проект</h3>
+                    <p>Помочь финансово</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-leaf"></i>
+                    <h2>Eco<span>Track</span></h2>
+                    <p>Платформа для экологических инициатив</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Навигация</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="about.html">О проекте</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-envelope"></i> info@ecotrack.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 123-45-67</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 EcoTrack. Все права защищены.</p>
+                <p>Сделано с <i class="fas fa-heart"></i> для планеты</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Donation Modal -->
+    <div class="modal" id="donationModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Поддержать проект</h2>
+            <p>Ваша поддержка поможет нам развивать платформу и реализовывать новые экологические инициативы.</p>
+            <div class="donation-options">
+                <button class="donation-option" data-amount="500">500 ₽</button>
+                <button class="donation-option" data-amount="1000">1000 ₽</button>
+                <button class="donation-option" data-amount="2000">2000 ₽</button>
+                <div class="custom-donation">
+                    <input type="number" id="customAmount" placeholder="Другая сумма">
+                    <span>₽</span>
+                </div>
+            </div>
+            <button class="btn btn-primary" id="donateButton">Поддержать</button>
+            <p class="note">После нажатия кнопки вы будете перенаправлены на безопасную страницу оплаты.</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
